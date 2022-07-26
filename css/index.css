@@ -1,0 +1,28 @@
+.with-map{
+  width: 200%;
+  height: 100%;
+}
+
+@media (max-width: 1143px) {
+  .with-map{
+    width: 165%;
+  }
+}
+
+@media (max-width: 972px) {
+  .with-map{
+    width: 145%;
+  }
+}
+
+@media (max-width: 861px) {
+  .with-map{
+    width: 115%;
+  }
+}
+
+@media (max-width: 767px) {
+  .with-map{
+    width: 160%;
+  }
+}
