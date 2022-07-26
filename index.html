@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/index.css">
+
   </head>
   <body>
 		<!-- Nav -->
@@ -119,35 +121,35 @@
 	    			<form action="#" class="appointment-form">
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
-		    					<input type="text" class="form-control" placeholder="Nombre">
+		    					<input type="text" name="name" id="name" class="form-control" placeholder="Nombre" required>
 		    				</div>
 		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Apellidos">
+		    					<input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellidos" required>
 		    				</div>
 	    				</div>
 	    				<div class="d-md-flex">
 		    				<div class="form-group">
 		    					<div class="input-wrap">
 		            		<div class="icon"><span class="ion-md-calendar"></span></div>
-		            		<input type="text" class="form-control appointment_date" placeholder="Fecha">
+		            		<input type="text" class="form-control appointment_date" name="fecha" id="fecha" placeholder="Fecha" required>
 	            		</div>
 		    				</div>
 		    				<div class="form-group ml-md-4">
 		    					<div class="input-wrap">
 		            		<div class="icon"><span class="ion-ios-clock"></span></div>
-		            		<input type="text" class="form-control appointment_time" placeholder="Tiempo">
+		            		<input type="text" class="form-control appointment_time" name="tiempo" id="tiempo" placeholder="Tiempo" required>
 	            		</div>
 		    				</div>
 		    				<div class="form-group ml-md-4">
-		    					<input type="text" class="form-control" placeholder="Teléfono">
+		    					<input type="text" name="phone" id="phone" class="form-control" placeholder="Teléfono" required>
 		    				</div>
 	    				</div>
 	    				<div class="d-md-flex">
 	    					<div class="form-group">
-		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Mensaje"></textarea>
+		              <textarea name="mensaje" id="mensaje" cols="30" rows="2" class="form-control" name="message" id="message" placeholder="Mensaje" required></textarea>
 		            </div>
 		            <div class="form-group ml-md-4">
-		              <input type="submit" value="Appointment" class="btn btn-white py-3 px-4">
+		              <button id="button-send-contact" class="btn btn-white py-3 px-4">Agendar</button>
 		            </div>
 	    				</div>
 	    			</form>
@@ -459,9 +461,9 @@
     		<div class="row no-gutters d-md-flex align-items-center">
     			<div class="col-md-6 d-flex align-self-stretch">
     				<div>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.8693891118924!2d-99.1539394!3d19.3748073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+							<iframe class="with-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.8693891118924!2d-99.1539394!3d19.3748073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
 								1!3m3!1m2!1s0x85d1ff0d9beb4461%3A0xf4b02b8be916f637!2zw4Fnb3JhIEJhcnJhIGRlIENhZsOp!5e0!3m2!1ses!2smx!4v1658532573002!5m2!1ses!2smx" 
-								width="1000" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+								style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 						</iframe>
 						</div>
     			</div>
@@ -565,6 +567,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+	<script src="js/contac.js"></script>
 
   </body>
 </html>
