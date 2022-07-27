@@ -1,29 +1,53 @@
 
 .with-map{
-  width: 200%;
+  width: 300%;
   height: 100%;
 }
 
-@media (max-width: 1143px) {
+@media (max-width: 1880px) {
   .with-map{
-    width: 165%;
+    width: 270%;
   }
 }
 
-@media (max-width: 972px) {
+@media (max-width: 1700px) {
   .with-map{
-    width: 145%;
+    width: 240%;
   }
 }
 
-@media (max-width: 861px) {
+@media (max-width: 1520px) {
   .with-map{
-    width: 115%;
+    width: 220%;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1420px) {
+  .with-map{
+    width: 200%;
+  }
+}
+
+@media (max-width: 1320px) {
+  .with-map{
+    width: 180%;
+  }
+}
+
+@media (max-width: 1158px) {
   .with-map{
     width: 160%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .with-map{
+    width: 140%;
+  }
+}
+
+@media (max-width: 991px) {
+  .with-map{
+    width: 155%;
   }
 }
