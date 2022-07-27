@@ -4,6 +4,10 @@
   height: 100%;
 }
 
+#mobile {
+  display: none;
+}
+
 @media (max-width: 1880px) {
   .with-map{
     width: 270%;
@@ -47,6 +51,15 @@
 }
 
 @media (max-width: 991px) {
+  #carousel {
+    display: none;
+  }
+  #gallery {
+    display: none;
+  }
+  #mobile {
+    display: block
+  }
   .with-map{
     width: 155%;
   }
