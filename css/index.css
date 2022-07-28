@@ -71,8 +71,12 @@
   }
   .logo-footer{
     width: 45%;
+    margin-left: 27%;
   }
   .logo-navbar{
     margin-left: 25%;
+  }
+  .button-contact{
+    margin-left: 30%;
   }
 }
