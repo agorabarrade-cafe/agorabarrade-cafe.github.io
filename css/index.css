@@ -3,6 +3,10 @@
   width: 300%;
   height: 100%;
 }
+.logo-footer{
+  width: 100%;
+  height: auto;
+}
 
 #mobile {
   display: none;
@@ -62,5 +66,8 @@
   }
   .with-map{
     width: 155%;
+  }
+  .logo-footer{
+    width: 50%;
   }
 }
