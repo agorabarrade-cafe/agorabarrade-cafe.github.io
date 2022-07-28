@@ -5,7 +5,7 @@ const sendNotification = (name, apellido, phone, mensaje) =>  {
                         Teléfono: ${phone}
                         Mensaje: ${mensaje}`.replace(/  +/g, '');
 
-  window.open(`https://api.whatsapp.com/send?phone=525583817789&text=${encodeURIComponent(message)}`)
+  window.open(`https://api.whatsapp.com/send?phone=525591703575&text=${encodeURIComponent(message)}`)
 }
 
 $( "#button-send-contact" ).click(function() {
