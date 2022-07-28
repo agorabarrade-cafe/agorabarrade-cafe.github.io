@@ -9,8 +9,9 @@
 }
 
 .logo-navbar{
-  width: 12%;
+  width: 50% !important;
   height: auto;
+  margin-left: 35%;
 }
 
 #mobile {
@@ -74,5 +75,8 @@
   }
   .logo-footer{
     width: 45%;
+  }
+  .logo-navbar{
+    margin-left: 25%;
   }
 }
