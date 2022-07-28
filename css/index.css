@@ -8,6 +8,11 @@
   height: auto;
 }
 
+.logo-navbar{
+  width: 12%;
+  height: auto;
+}
+
 #mobile {
   display: none;
 }
@@ -68,6 +73,6 @@
     width: 155%;
   }
   .logo-footer{
-    width: 50%;
+    width: 45%;
   }
 }
