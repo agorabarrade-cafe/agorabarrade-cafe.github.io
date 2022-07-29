@@ -17,7 +17,15 @@
 .m-top-56 {
   margin-top: 56px;
 }
-
+#carrusel1 {
+  background-image: url('../images/carrusel1.jpg');
+}
+#carrusel2 {
+  background-image: url('../images/carrusel2.jpg');
+}
+#carrusel3 {
+  background-image: url('../images/carrusel3.jpg');
+}
 #mobile {
   display: none;
 }
@@ -70,6 +78,15 @@
   }
   #mobile {
     display: block
+  }
+  #carrusel1 {
+    background-image: url('../images/mobile1.jpg');
+  }
+  #carrusel2 {
+    background-image: url('../images/mobile2.jpg');
+  }
+  #carrusel3 {
+    background-image: url('../images/mobile3.jpg');
   }
   .with-map{
     width: 155%;
