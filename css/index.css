@@ -6,11 +6,16 @@
   width: 100%;
   height: auto;
 }
-
 .logo-navbar{
   width: 50% !important;
   height: auto;
   margin-left: 35%;
+}
+.m-top-28 {
+  margin-top: 28px;
+}
+.m-top-56 {
+  margin-top: 56px;
 }
 
 #mobile {
