@@ -3,8 +3,8 @@
   height: 100%;
 }
 .logo-footer{
-  width: 100%;
-  height: auto;
+  width: 280Px;
+  height: 280Px;
 }
 .logo-navbar{
   width: 50% !important;
@@ -93,6 +93,10 @@
   }
   .logo-footer{
     width: 45%;
+  }
+  .logo-footer{
+    width: 100%;
+    height: auto;
   }
   .logo-navbar{
     margin-left: 25%;
