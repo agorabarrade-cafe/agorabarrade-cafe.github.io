@@ -17,6 +17,9 @@
 .m-top-56 {
   margin-top: 56px;
 }
+.m-top-84 {
+  margin-top: 84px;
+}
 #carrusel1 {
   background-image: url('../images/carrusel1.jpg');
 }
@@ -27,6 +30,9 @@
   background-image: url('../images/carrusel3.jpg');
 }
 #mobile {
+  display: none;
+}
+#tabletmini {
   display: none;
 }
 
@@ -77,7 +83,10 @@
     display: none;
   }
   #mobile {
-    display: block
+    display: block;
+  }
+  #tabletmini {
+    display: block;
   }
   #carrusel1 {
     background-image: url('../images/mobile1.jpg');
@@ -100,5 +109,11 @@
   }
   .logo-navbar{
     margin-left: 25%;
+  }
+}
+
+@media (max-width: 550px) {
+  #tabletmini {
+    display: none;
   }
 }
