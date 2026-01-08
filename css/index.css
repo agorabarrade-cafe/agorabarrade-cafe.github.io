@@ -28,6 +28,12 @@
 #carrusel3 {
   background-image: url('../images/carrusel3.jpg');
 }
+#carrusel4 {
+  background-image: url('../images/carrusel4.jpg');
+}
+#carrusel5 {
+  background-image: url('../images/carrusel5.jpg');
+}
 #mobile {
   display: none;
 }
